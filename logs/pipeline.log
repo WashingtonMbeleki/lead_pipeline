@@ -1,0 +1,514 @@
+2026-09-17 17:15:17,124 ERROR __main__: search failed for query='tech startup in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,124 ERROR __main__: search failed for query='software company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,125 ERROR __main__: search failed for query='fintech company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,125 ERROR __main__: search failed for query='IT company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,125 ERROR __main__: search failed for query='technology company in Sandton'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,125 ERROR __main__: search failed for query='tech company in Rosebank Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,125 ERROR __main__: search failed for query='startup incubator Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,126 ERROR __main__: search failed for query='tech company in Braamfontein Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:15:17,126 INFO __main__: pipeline finished: {'discovered': 0, 'processed': 0, 'inserted': 0, 'updated': 0, 'errors': 8, 'skipped_duplicate_domain': 0}
+2026-09-17 17:16:54,105 ERROR __main__: search failed for query='tech startup in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,105 ERROR __main__: search failed for query='software company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='fintech company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='IT company in Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='technology company in Sandton'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='tech company in Rosebank Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='startup incubator Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,106 ERROR __main__: search failed for query='tech company in Braamfontein Johannesburg'
+Traceback (most recent call last):
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/pipeline.py", line 46, in run
+    places = extract_places.search_places(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wtc/Projects/Personal/lead_pipeline/src/extract_places.py", line 79, in search_places
+    raise PlacesAPIError("LOCATIONIQ_API_KEY is not set (see .env.example)")
+src.extract_places.PlacesAPIError: LOCATIONIQ_API_KEY is not set (see .env.example)
+2026-09-17 17:16:54,107 INFO __main__: pipeline finished: {'discovered': 0, 'processed': 0, 'inserted': 0, 'updated': 0, 'errors': 8, 'skipped_duplicate_domain': 0}
+2026-09-17 17:19:22,430 INFO src.extract_places: query='tech startup in Johannesburg' returned 1 places
+2026-09-17 17:19:26,403 INFO src.load: inserted Johannesburg Institute of Engineering and Technology (331235914992)
+2026-09-17 17:19:28,539 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:19:31,985 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:19:36,352 INFO src.extract_places: query='software company in Johannesburg' returned 0 places
+2026-09-17 17:19:38,967 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:19:41,331 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:19:45,779 INFO src.extract_places: query='fintech company in Johannesburg' returned 0 places
+2026-09-17 17:19:48,448 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:19:51,012 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:19:55,365 INFO src.extract_places: query='IT company in Johannesburg' returned 0 places
+2026-09-17 17:19:58,073 INFO src.extract_places: query='technology company in Sandton' returned 2 places
+2026-09-17 17:20:02,154 INFO src.load: inserted Richfield Graduate Institute of Technology (332283944717)
+2026-09-17 17:20:02,655 INFO src.load: inserted Sage Technology Park (333396056356)
+2026-09-17 17:20:04,114 INFO src.extract_places: query='tech company in Rosebank Johannesburg' returned 20 places
+2026-09-17 17:20:07,880 INFO src.load: inserted Johannesburg Street (332938748163)
+2026-09-17 17:20:08,381 INFO src.load: inserted Johannesburg Street (331692655282)
+2026-09-17 17:20:08,883 INFO src.load: inserted Johannesburg Road (332780823109)
+2026-09-17 17:20:09,384 INFO src.load: inserted Johannesburg Road (331723977815)
+2026-09-17 17:20:09,886 INFO src.load: inserted Johannesburg Road (333029026164)
+2026-09-17 17:20:10,387 INFO src.load: inserted Old Johannesburg Road (333127084190)
+2026-09-17 17:20:10,889 INFO src.load: inserted Johannesburg Stadium Access Road (332777221057)
+2026-09-17 17:20:11,390 INFO src.load: inserted Rosebank Road (331047654236)
+2026-09-17 17:20:11,892 INFO src.load: inserted Rosebank Street (333474817478)
+2026-09-17 17:20:12,393 INFO src.load: inserted Johannesburg Correctional Centre (331666958470)
+2026-09-17 17:20:12,894 INFO src.load: inserted Johannesburg Planetarium (332750179501)
+2026-09-17 17:20:13,396 INFO src.load: inserted Johannesburg Stadium (333090679140)
+2026-09-17 17:20:13,898 INFO src.load: inserted University of Johannesburg (331474658892)
+2026-09-17 17:20:14,400 INFO src.load: inserted Johannesburg Park Station (330451157377)
+2026-09-17 17:20:14,901 INFO src.load: inserted Johannesburg City Library (333405049670)
+2026-09-17 17:20:15,403 INFO src.load: inserted Johannesburg Art Gallery (331738644620)
+2026-09-17 17:20:15,904 INFO src.load: inserted Johannesburg City Hall (332488299896)
+2026-09-17 17:20:16,404 INFO __main__: reached --limit=20, stopping
+2026-09-17 17:29:54,252 INFO src.extract_places: query='tech startup in Johannesburg' returned 1 places
+2026-09-17 17:30:00,298 INFO src.extract_places: query='tech startup in Sandton' returned 7 places
+2026-09-17 17:30:03,158 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:30:05,817 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:30:10,326 INFO src.extract_places: query='tech startup in Rosebank' returned 0 places
+2026-09-17 17:30:13,606 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:30:17,188 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:30:21,695 INFO src.extract_places: query='tech startup in Braamfontein' returned 0 places
+2026-09-17 17:30:24,765 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:30:27,532 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:30:32,140 INFO src.extract_places: query='tech startup in Melrose Arch' returned 0 places
+2026-09-17 17:30:35,513 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:30:38,387 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:30:42,889 INFO src.extract_places: query='tech startup in Randburg' returned 0 places
+2026-09-17 17:30:46,683 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:30:49,241 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:30:53,850 INFO src.extract_places: query='tech startup in Fourways' returned 0 places
+2026-09-17 17:30:57,127 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:31:01,159 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:31:06,138 INFO src.extract_places: query='tech startup in Midrand' returned 0 places
+2026-09-17 17:31:08,998 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:31:11,865 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:31:18,530 INFO src.extract_places: query='tech startup in Bryanston' returned 0 places
+2026-09-17 17:31:25,689 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:31:31,524 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:31:36,753 INFO src.extract_places: query='fintech startup in Johannesburg' returned 0 places
+2026-09-17 17:31:40,338 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:31:43,716 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:31:54,267 INFO src.extract_places: query='fintech startup in Sandton' returned 0 places
+2026-09-17 17:31:58,159 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:32:01,740 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:32:06,349 INFO src.extract_places: query='fintech startup in Rosebank' returned 0 places
+2026-09-17 17:32:10,956 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:32:13,511 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:32:18,014 INFO src.extract_places: query='fintech startup in Braamfontein' returned 0 places
+2026-09-17 17:32:20,952 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:32:25,150 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:32:29,845 INFO src.extract_places: query='fintech startup in Melrose Arch' returned 0 places
+2026-09-17 17:32:33,102 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:32:35,517 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:32:41,546 INFO src.extract_places: query='fintech startup in Randburg' returned 0 places
+2026-09-17 17:32:44,077 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:32:47,710 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:32:53,664 INFO src.extract_places: query='fintech startup in Fourways' returned 0 places
+2026-09-17 17:32:57,035 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:01,026 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:33:05,945 INFO src.extract_places: query='fintech startup in Midrand' returned 0 places
+2026-09-17 17:33:08,716 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:11,271 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:33:15,775 INFO src.extract_places: query='fintech startup in Bryanston' returned 0 places
+2026-09-17 17:33:18,642 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:21,195 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:33:25,701 INFO src.extract_places: query='fintech company in Johannesburg' returned 0 places
+2026-09-17 17:33:28,473 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:31,648 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:33:36,563 INFO src.extract_places: query='fintech company in Sandton' returned 0 places
+2026-09-17 17:33:39,122 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:41,983 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:33:46,795 INFO src.extract_places: query='fintech company in Rosebank' returned 0 places
+2026-09-17 17:33:51,720 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:33:56,422 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:34:07,685 INFO src.extract_places: query='fintech company in Braamfontein' returned 0 places
+2026-09-17 17:34:14,077 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:34:19,366 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:34:26,553 INFO src.extract_places: query='fintech company in Melrose Arch' returned 0 places
+2026-09-17 17:34:30,119 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:34:32,773 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:34:37,426 INFO src.extract_places: query='fintech company in Randburg' returned 0 places
+2026-09-17 17:34:41,170 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:34:44,253 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:34:48,865 INFO src.extract_places: query='fintech company in Fourways' returned 0 places
+2026-09-17 17:34:51,604 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:34:54,397 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:34:59,204 INFO src.extract_places: query='fintech company in Midrand' returned 0 places
+2026-09-17 17:35:01,564 INFO src.extract_places: query='tech startup in Johannesburg' returned 1 places
+2026-09-17 17:35:04,312 INFO src.extract_places: query='tech startup in Sandton' returned 7 places
+2026-09-17 17:35:04,394 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:06,664 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:07,796 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:09,313 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:12,238 INFO src.extract_places: query='fintech company in Bryanston' returned 0 places
+2026-09-17 17:35:13,734 INFO src.extract_places: query='tech startup in Rosebank' returned 0 places
+2026-09-17 17:35:17,421 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:20,839 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:21,629 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:25,433 INFO src.extract_places: query='tech startup in Braamfontein' returned 0 places
+2026-09-17 17:35:25,928 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:28,182 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:30,945 INFO src.extract_places: query='software company in Johannesburg' returned 0 places
+2026-09-17 17:35:31,245 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:34,839 INFO src.extract_places: query='software company in Sandton' returned 1 places
+2026-09-17 17:35:36,283 INFO src.extract_places: query='tech startup in Melrose Arch' returned 0 places
+2026-09-17 17:35:37,814 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:39,344 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:40,758 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:42,186 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:46,308 INFO src.extract_places: query='software company in Rosebank' returned 0 places
+2026-09-17 17:35:46,812 INFO src.extract_places: query='tech startup in Randburg' returned 0 places
+2026-09-17 17:35:49,072 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:49,380 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:35:52,245 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:52,347 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:35:56,751 INFO src.extract_places: query='software company in Braamfontein' returned 0 places
+2026-09-17 17:35:57,775 INFO src.extract_places: query='tech startup in Fourways' returned 0 places
+2026-09-17 17:35:59,814 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:00,646 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:02,588 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:03,618 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:07,401 INFO src.extract_places: query='software company in Melrose Arch' returned 0 places
+2026-09-17 17:36:08,528 INFO src.extract_places: query='tech startup in Midrand' returned 0 places
+2026-09-17 17:36:10,680 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:11,711 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:13,846 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:15,285 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:19,181 INFO src.extract_places: query='software company in Randburg' returned 0 places
+2026-09-17 17:36:21,030 INFO src.extract_places: query='tech startup in Bryanston' returned 0 places
+2026-09-17 17:36:22,762 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:26,042 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:28,603 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:30,855 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:34,440 INFO src.extract_places: query='software company in Fourways' returned 0 places
+2026-09-17 17:36:39,768 INFO src.extract_places: query='fintech startup in Johannesburg' returned 0 places
+2026-09-17 17:36:41,190 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:44,478 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:46,395 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:48,543 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:36:53,676 INFO src.extract_places: query='fintech startup in Sandton' returned 0 places
+2026-09-17 17:36:53,876 INFO src.extract_places: query='software company in Midrand' returned 0 places
+2026-09-17 17:36:58,239 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:36:58,605 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:02,192 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:02,809 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:09,672 INFO src.extract_places: query='fintech startup in Rosebank' returned 0 places
+2026-09-17 17:37:10,386 INFO src.extract_places: query='software company in Bryanston' returned 0 places
+2026-09-17 17:37:14,475 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:15,910 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:21,043 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:24,011 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:25,650 INFO src.extract_places: query='software startup in Johannesburg' returned 0 places
+2026-09-17 17:37:28,824 INFO src.extract_places: query='software startup in Sandton' returned 1 places
+2026-09-17 17:37:29,019 INFO src.extract_places: query='fintech startup in Braamfontein' returned 0 places
+2026-09-17 17:37:31,913 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:32,100 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:34,670 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:34,970 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:41,826 INFO src.extract_places: query='software startup in Rosebank' returned 0 places
+2026-09-17 17:37:41,928 INFO src.extract_places: query='fintech startup in Melrose Arch' returned 0 places
+2026-09-17 17:37:44,495 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:44,585 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:37:50,435 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:50,435 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:37:56,373 INFO src.extract_places: query='software startup in Braamfontein' returned 0 places
+2026-09-17 17:37:56,374 INFO src.extract_places: query='fintech startup in Randburg' returned 0 places
+2026-09-17 17:38:00,562 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:00,675 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:03,839 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:03,955 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:10,400 INFO src.extract_places: query='fintech startup in Fourways' returned 0 places
+2026-09-17 17:38:10,815 INFO src.extract_places: query='software startup in Melrose Arch' returned 0 places
+2026-09-17 17:38:13,468 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:13,580 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:17,358 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:20,027 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:22,383 INFO src.extract_places: query='software startup in Randburg' returned 0 places
+2026-09-17 17:38:25,354 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:25,596 INFO src.extract_places: query='fintech startup in Midrand' returned 0 places
+2026-09-17 17:38:28,021 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:28,732 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:31,697 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:32,727 INFO src.extract_places: query='software startup in Fourways' returned 0 places
+2026-09-17 17:38:36,312 INFO src.extract_places: query='fintech startup in Bryanston' returned 0 places
+2026-09-17 17:38:36,336 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:39,793 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:39,816 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:42,969 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:44,612 INFO src.extract_places: query='software startup in Midrand' returned 0 places
+2026-09-17 17:38:47,269 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:47,678 INFO src.extract_places: query='fintech company in Johannesburg' returned 0 places
+2026-09-17 17:38:50,445 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:50,647 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:38:53,210 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:38:55,659 INFO src.extract_places: query='software startup in Bryanston' returned 0 places
+2026-09-17 17:38:58,323 INFO src.extract_places: query='fintech company in Sandton' returned 0 places
+2026-09-17 17:38:59,148 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:01,190 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:02,112 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:04,168 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:07,648 INFO src.extract_places: query='IT company in Johannesburg' returned 0 places
+2026-09-17 17:39:09,998 INFO src.extract_places: query='fintech company in Rosebank' returned 0 places
+2026-09-17 17:39:12,371 INFO src.extract_places: query='IT company in Sandton' returned 6 places
+2026-09-17 17:39:13,306 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:16,771 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:18,094 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:20,348 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:22,599 INFO src.extract_places: query='fintech company in Braamfontein' returned 0 places
+2026-09-17 17:39:24,853 INFO src.extract_places: query='IT company in Rosebank' returned 0 places
+2026-09-17 17:39:25,058 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:27,509 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:27,510 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:30,070 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:32,433 INFO src.extract_places: query='fintech company in Melrose Arch' returned 0 places
+2026-09-17 17:39:34,690 INFO src.extract_places: query='IT company in Braamfontein' returned 0 places
+2026-09-17 17:39:34,889 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:37,443 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:37,552 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:40,214 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:42,160 INFO src.extract_places: query='fintech company in Randburg' returned 0 places
+2026-09-17 17:39:45,028 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:45,028 INFO src.extract_places: query='IT company in Melrose Arch' returned 0 places
+2026-09-17 17:39:47,799 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:48,003 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:50,558 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:39:52,914 INFO src.extract_places: query='fintech company in Fourways' returned 0 places
+2026-09-17 17:39:55,276 INFO src.extract_places: query='IT company in Randburg' returned 0 places
+2026-09-17 17:39:55,549 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:58,035 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:39:58,035 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:00,595 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:02,950 INFO src.extract_places: query='fintech company in Midrand' returned 0 places
+2026-09-17 17:40:05,612 INFO src.extract_places: query='IT company in Fourways' returned 0 places
+2026-09-17 17:40:05,714 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:08,276 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:08,378 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:11,655 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:13,397 INFO src.extract_places: query='fintech company in Bryanston' returned 0 places
+2026-09-17 17:40:16,468 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:16,673 INFO src.extract_places: query='IT company in Midrand' returned 0 places
+2026-09-17 17:40:20,362 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:20,762 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:23,433 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:24,969 INFO src.extract_places: query='software company in Johannesburg' returned 0 places
+2026-09-17 17:40:30,798 INFO src.extract_places: query='software company in Sandton' returned 1 places
+2026-09-17 17:40:33,262 INFO src.extract_places: query='IT company in Bryanston' returned 0 places
+2026-09-17 17:40:37,782 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:38,898 INFO src.extract_places: query='technology company in Johannesburg' returned 1 places
+2026-09-17 17:40:40,637 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:41,565 INFO src.extract_places: query='technology company in Sandton' returned 2 places
+2026-09-17 17:40:45,756 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:45,963 INFO src.extract_places: query='software company in Rosebank' returned 0 places
+2026-09-17 17:40:48,729 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:48,835 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:51,901 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:53,532 INFO src.extract_places: query='technology company in Rosebank' returned 0 places
+2026-09-17 17:40:56,714 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:40:56,714 INFO src.extract_places: query='software company in Braamfontein' returned 0 places
+2026-09-17 17:40:59,172 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:40:59,172 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:01,726 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:04,498 INFO src.extract_places: query='technology company in Braamfontein' returned 0 places
+2026-09-17 17:41:07,263 INFO src.extract_places: query='software company in Melrose Arch' returned 0 places
+2026-09-17 17:41:07,466 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:10,028 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:10,129 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:12,589 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:14,638 INFO src.extract_places: query='technology company in Melrose Arch' returned 0 places
+2026-09-17 17:41:17,298 INFO src.extract_places: query='software company in Randburg' returned 0 places
+2026-09-17 17:41:17,499 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:19,773 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:20,057 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:22,317 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:24,774 INFO src.extract_places: query='technology company in Randburg' returned 0 places
+2026-09-17 17:41:26,929 INFO src.extract_places: query='software company in Fourways' returned 0 places
+2026-09-17 17:41:27,539 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:29,485 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:30,099 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:31,942 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:34,708 INFO src.extract_places: query='technology company in Fourways' returned 0 places
+2026-09-17 17:41:36,647 INFO src.extract_places: query='software company in Midrand' returned 0 places
+2026-09-17 17:41:37,372 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:39,207 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:41:40,035 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:41,981 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:41:46,171 INFO src.extract_places: query='technology company in Midrand' returned 0 places
+2026-09-17 17:41:50,584 INFO src.extract_places: query='software company in Bryanston' returned 0 places
+2026-09-17 17:41:56,827 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:06,760 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:16,798 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:29,495 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:32,578 INFO src.extract_places: query='technology company in Bryanston' returned 0 places
+2026-09-17 17:42:34,683 INFO src.extract_places: query='software startup in Johannesburg' returned 0 places
+2026-09-17 17:42:35,099 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:37,048 INFO src.extract_places: query='software startup in Sandton' returned 1 places
+2026-09-17 17:42:37,887 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:39,581 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:42,196 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:42,400 INFO src.extract_places: query='startup incubator in Johannesburg' returned 0 places
+2026-09-17 17:42:45,163 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:46,798 INFO src.extract_places: query='software startup in Rosebank' returned 0 places
+2026-09-17 17:42:47,723 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:49,362 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:51,708 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:52,106 INFO src.extract_places: query='startup incubator in Sandton' returned 0 places
+2026-09-17 17:42:54,790 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:42:56,327 INFO src.extract_places: query='software startup in Braamfontein' returned 0 places
+2026-09-17 17:42:57,349 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:42:58,888 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:01,651 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:01,952 INFO src.extract_places: query='startup incubator in Rosebank' returned 0 places
+2026-09-17 17:43:05,228 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:06,260 INFO src.extract_places: query='software startup in Melrose Arch' returned 0 places
+2026-09-17 17:43:07,900 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:08,819 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:11,587 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:12,404 INFO src.extract_places: query='startup incubator in Braamfontein' returned 0 places
+2026-09-17 17:43:15,993 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:16,086 INFO src.extract_places: query='software startup in Randburg' returned 0 places
+2026-09-17 17:43:18,557 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:18,562 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:21,006 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:23,258 INFO src.extract_places: query='startup incubator in Melrose Arch' returned 0 places
+2026-09-17 17:43:25,513 INFO src.extract_places: query='software startup in Fourways' returned 0 places
+2026-09-17 17:43:26,019 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:27,979 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:28,680 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:30,734 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:33,191 INFO src.extract_places: query='startup incubator in Randburg' returned 0 places
+2026-09-17 17:43:35,336 INFO src.extract_places: query='software startup in Midrand' returned 0 places
+2026-09-17 17:43:35,956 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:37,896 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:38,521 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:40,458 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:43,137 INFO src.extract_places: query='startup incubator in Fourways' returned 0 places
+2026-09-17 17:43:45,167 INFO src.extract_places: query='software startup in Bryanston' returned 0 places
+2026-09-17 17:43:45,883 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:47,734 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:48,552 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:50,390 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:43:53,058 INFO src.extract_places: query='startup incubator in Midrand' returned 0 places
+2026-09-17 17:43:55,004 INFO src.extract_places: query='IT company in Johannesburg' returned 0 places
+2026-09-17 17:43:55,817 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:43:57,667 INFO src.extract_places: query='IT company in Sandton' returned 6 places
+2026-09-17 17:43:58,377 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:00,220 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:02,594 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:02,772 INFO src.extract_places: query='startup incubator in Bryanston' returned 0 places
+2026-09-17 17:44:05,532 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:08,419 INFO src.extract_places: query='IT company in Rosebank' returned 0 places
+2026-09-17 17:44:08,419 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:10,981 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:12,816 INFO src.extract_places: query='startup accelerator in Johannesburg' returned 0 places
+2026-09-17 17:44:13,439 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:15,516 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:17,887 INFO src.extract_places: query='IT company in Braamfontein' returned 0 places
+2026-09-17 17:44:17,954 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:20,338 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:22,466 INFO src.extract_places: query='startup accelerator in Sandton' returned 0 places
+2026-09-17 17:44:22,758 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:25,315 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
+2026-09-17 17:44:27,467 INFO src.extract_places: query='IT company in Melrose Arch' returned 0 places
+2026-09-17 17:44:27,774 WARNING src.extract_places: attempt 2/3 got 404 'Unable to geocode', retrying in 4.0s
+2026-09-17 17:44:30,131 WARNING src.extract_places: attempt 1/3 got 404 'Unable to geocode', retrying in 2.0s
