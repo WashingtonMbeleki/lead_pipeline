@@ -23,7 +23,7 @@ class ProfileTailorEngine:
         categories = self.master_data.get("skill_categories", {})
         for skill_list in categories.values():
             if isinstance(skill_list, list):
-                all_skills.extend(skill_list)
+                all_skills.extend(skill_list) # type: ignore
 
         matched_skills = [skill for skill in all_skills if re.search(rf"\b{re.escape(skill.lower())}\b", jd_text)]
         if not matched_skills:
