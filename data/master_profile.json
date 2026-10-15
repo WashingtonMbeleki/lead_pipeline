@@ -115,7 +115,7 @@
     },
     {
       "name": "Robot World Simulation Platform",
-      "award": "",
+      "award": "WeThinkCode_ course project",
       "bullets": [
         "Built a Java multiplayer client-server simulation using Maven, object-oriented design, test-driven development, Swing, and socket/network programming; refactored code in response to complexity warnings."
       ]
