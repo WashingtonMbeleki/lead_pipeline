@@ -60,4 +60,5 @@ class JobScraper:
 
         return scraped_jobs
 
-        
+
+
