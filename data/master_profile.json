@@ -1,0 +1,196 @@
+{
+  "full_name": "WASHINGTON MBELEKI",
+  "title": "SOFTWARE ENGINEER | DATA ENGINEER",
+  "contact": {
+    "location": "Johannesburg, South Africa",
+    "email": "washiembeleki2003@gmail.com",
+    "phone": "084 496 9910",
+    "github": "github.com/WashingtonMbeleki",
+    "linkedin": "linkedin.com/in/washie"
+  },
+  "summary": "Software engineer with practical experience building backend services, data pipelines, and data-backed applications. Project work includes relational database architecture, ETL ingestion pipelines, TF-IDF semantic search, Cloudflare serverless edge infrastructure (D1, KV, R2), RESTful microservices, third-party API integrations, and workflow automation. Brings strong Python, Java, SQL, and TypeScript foundations alongside test-driven development (TDD), code review, and collaborative delivery. Targeting entry-level software and data engineering roles where backend engineering skills can support reliable data services.",
+  "skill_categories": {
+    "Languages & Query": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Bash/Shell"
+    ],
+    "Data Engineering & Storage": [
+      "SQLite",
+      "PostgreSQL",
+      "Cloudflare D1 (Serverless Relational)",
+      "Cloudflare KV (Key-Value Caching)",
+      "Cloudflare R2 (Object Storage)",
+      "Relational Database Design (RDBMS)",
+      "ETL Pipeline Construction",
+      "Data Ingestion & Transformation",
+      "Data Validation & Quality Checks",
+      "TF-IDF & Cosine Similarity Matching"
+    ],
+    "Backend, Web & APIs": [
+      "REST APIs",
+      "Flask",
+      "Node.js",
+      "Hono",
+      "Cloudflare Workers",
+      "Microservices",
+      "JWT Authentication",
+      "Third-Party API Integration (MTN MoMo, Google Calendar)",
+      "Socket & Network Programming",
+      "n8n Workflow Automation"
+    ],
+    "Workflow, AI & Tooling": [
+      "Linux/Ubuntu",
+      "Docker",
+      "Git/GitHub",
+      "GitLab CI/CD Automation",
+      "Test-Driven Development (TDD)",
+      "JUnit 5",
+      "Maven",
+      "Generative AI & LLM API Integration",
+      "Prompt Engineering & Automated Test Generation",
+      "Web Scraping (BeautifulSoup)",
+      "Agile Software Development"
+    ]
+  },
+  "experiences": [
+    {
+      "role": "Peer Tutor & Bootcamp Assistant",
+      "company": "WeThinkCode_",
+      "period": "Oct 2025 - Present",
+      "bullets": [
+        "Facilitate hands-on sessions covering Python fundamentals, Java object-oriented design, and Git workflows for incoming cohorts.",
+        "Conduct code reviews, help troubleshoot systems, and reinforce test-driven development (TDD) and maintainable coding practices."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Automated Job Pipeline & Tailored PDF Resume Engine",
+      "award": "Personal Project",
+      "bullets": [
+        "Engineered an automated lead pipeline scraping public job feeds using Python, BeautifulSoup, and backoff retry handling.",
+        "Implemented TF-IDF cosine similarity scoring to match candidate profiles against incoming job descriptions.",
+        "Built a Jinja2 & xhtml2pdf rendering engine to automatically generate job-tailored PDF CVs and managed workflow tracking via a Streamlit dashboard and SQLite."
+      ],
+      "links": "GitHub: github.com/WashingtonMbeleki"
+    },
+    {
+      "name": "MoCredit - AI Credit Scoring & Micro-Lending Mini App",
+      "award": "2nd Place, MTN MoMo FinTech Hackathon, 2026",
+      "bullets": [
+        "Worked on a fintech application using a Node.js/Hono backend on Cloudflare Workers, Cloudflare D1 for persistent storage, and Cloudflare KV for score caching.",
+        "Integrated MTN MoMo Collections (RequestToPay) and Disbursements APIs, with an n8n-orchestrated AI coaching workflow."
+      ],
+      "links": "Live: momo-credit-app.pages.dev | GitHub: github.com/bhekani17/South-africa-VoiceMo-mini-app"
+    },
+    {
+      "name": "Thuso Health - Digital Health Passport & Smart Clinic Finder",
+      "award": "Top 3, G13 Health Challenge",
+      "bullets": [
+        "Co-built an offline-first health passport and clinic finder with backend APIs using Hono/Cloudflare Workers, D1 records, R2 medical attachments, and JWT authentication.",
+        "Developed data-informed clinic recommendations using travel-time, queue-congestion, and load-shedding/solar-power information; supported offline caching and sync-on-reconnect."
+      ],
+      "links": "GitHub: github.com/peekay11/thuso-health"
+    },
+    {
+      "name": "TSUMO Network - Backend Data Architecture",
+      "award": "",
+      "bullets": [
+        "Co-engineered Python-based REST API endpoints handling media-streaming metadata workflows and user request routes.",
+        "Implemented server-side business logic to automate complex, usage-based revenue allocation and payout calculations.",
+        "Integrated application layers with persistent relational database storage to ensure safe, validated transaction logging."
+      ],
+      "links": ""
+    },
+    {
+      "name": "Code Clinic Booking System",
+      "award": "WeThinkCode_ course project",
+      "bullets": [
+        "Built a booking application for scheduling and managing academic code clinic sessions using Python, Flask, SQLite, and Google Calendar API integrations."
+      ],
+      "links": ""
+    },
+    {
+      "name": "Robot World Simulation Platform",
+      "award": "",
+      "bullets": [
+        "Built a Java multiplayer client-server simulation using Maven, object-oriented design, test-driven development, Swing, and socket/network programming; refactored code in response to complexity warnings."
+      ],
+      "links": ""
+    }
+  ],
+  "education": {
+    "degree": "Occupational Diploma in Software Engineering",
+    "institution": "WeThinkCode_",
+    "location": "Johannesburg, South Africa",
+    "period": "Oct 2025 - Expected Feb 2027",
+    "coursework": "Software Engineering Principles, Data Structures & Algorithms, Object-Oriented Design, Concurrent Systems, CI/CD, and Database Management."
+  },
+  "certifications": [
+    "Data Engineering Basics for Everyone — edX, Aug 2026.",
+    "Relational Database Management Systems — IBM, Sep 2026.",
+    "Generative AI for Software Engineering — WeThinkCode_; prompt engineering, AI-assisted refactoring, test-suite generation, and LLM API integrations."
+  ],
+  "proof_points": [
+    {
+      "project": "Job Pipeline Engine",
+      "demonstrates": "Web scraping, TF-IDF semantic matching, SQLite tracking, and dynamic PDF generation.",
+      "stack": "Python, BeautifulSoup, TF-IDF, SQLite, Streamlit, xhtml2pdf"
+    },
+    {
+      "project": "MoCredit",
+      "demonstrates": "Persistent storage, caching, external API integration, workflow automation; 2nd place at MTN MoMo FinTech Hackathon 2026.",
+      "stack": "Node.js, Hono, Workers, D1, KV, n8n"
+    },
+    {
+      "project": "Thuso Health",
+      "demonstrates": "Data-informed recommendations, offline-first sync, R2 medical storage, JWT auth.",
+      "stack": "Hono, Workers, D1, R2, JWT"
+    },
+    {
+      "project": "TSUMO Network",
+      "demonstrates": "Backend REST APIs, media streaming metadata, automated revenue payout logic.",
+      "stack": "Python, REST APIs, Relational Persistence"
+    },
+    {
+      "project": "Code Clinic",
+      "demonstrates": "Database-backed booking workflow and Google Calendar integration.",
+      "stack": "Python, Flask, SQLite, Google Calendar API"
+    }
+  ],
+  "gaps_and_plan": [
+    {
+      "gap": "Standalone PySpark distributed data processing",
+      "action": "Build a large-scale data ingestion and transformation pipeline utilizing PySpark and SQL window functions for batch analytics."
+    },
+    {
+      "gap": "Advanced SQL depth & optimization",
+      "action": "Add explicit public repo demonstrations featuring complex CTEs, window functions, indexing strategies, data deduplication, and execution plan optimization."
+    },
+    {
+      "gap": "Data orchestration & scheduling",
+      "action": "Integrate Apache Airflow or Prefect to manage DAG schedules, retry policies, and logging for automated ETL runs."
+    }
+  ],
+  "first_90_days": [
+    {
+      "period": "Days 1-30",
+      "focus": "Build a complete Python + SQL ETL pipeline",
+      "evidence": "Public API ingestion, validation/transformation, relational database loading, unit tests, and automated data quality checks."
+    },
+    {
+      "period": "Days 31-60",
+      "focus": "Improve query performance and pipeline orchestration",
+      "evidence": "Window functions, indexing optimizations, automated retry/logging policies, and repeatable pipeline runs."
+    },
+    {
+      "period": "Days 61-90",
+      "focus": "Polish repositories and deliver tailored applications",
+      "evidence": "Comprehensive architecture diagrams, project documentation, technical walkthroughs, and active candidate positioning."
+    }
+  ]
+}

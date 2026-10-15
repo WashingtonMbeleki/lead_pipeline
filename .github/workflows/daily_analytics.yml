@@ -1,0 +1,51 @@
+name: Daily Application Analytics Processing
+
+on:
+  schedule:
+    # Runs at 20:00 UTC (22:00 SAST) every day
+    - cron: '0 20 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  process-analytics:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+        cache: "pip"
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Export Data Aggregations
+      run: |
+        python -c "
+        import pandas as pd
+        import sqlite3
+        import os
+
+        db_path = 'data/job_applications.db'
+        if os.path.exists(db_path):
+            conn = sqlite3.connect(db_path)
+            df = pd.read_sql_query('SELECT * FROM applications', conn)
+            conn.close()
+            df.to_csv('data/export_summary.csv', index=False)
+            print(f'Exported {len(df)} application records.')
+        else:
+            print('No database found. Skipping export generation.')
+        "
+
+            - name: Upload Daily Analytics Artifact
+              uses: actions/upload-artifact@v4
+              with:
+                name: daily-job-analytics-${{ github.run_id }}
+                path: data/export_summary.csv
+                retention-days: 14

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        @page {
+            size: letter;
+            margin: 10mm 12mm 10mm 12mm;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #1a1a1a;
+            font-size: 8.5pt;
+            line-height: 1.25;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 3px;
+            margin-bottom: 6px;
+        }
+        .name {
+            font-size: 14pt;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 1px;
+        }
+        .subtitle {
+            font-size: 9.5pt;
+            font-weight: bold;
+            color: #333333;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+        .contact {
+            font-size: 8pt;
+            color: #444444;
+        }
+        .section-header {
+            font-size: 9pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #333333;
+            margin-top: 6px;
+            margin-bottom: 3px;
+            padding-bottom: 1px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .data-table td, .data-table th {
+            vertical-align: top;
+            padding: 2px 0;
+            font-size: 8.5pt;
+        }
+        .grid-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 4px;
+            margin-bottom: 6px;
+        }
+        .grid-table th {
+            background-color: #f2f2f2;
+            border: 1px solid #cccccc;
+            padding: 4px;
+            font-size: 8.5pt;
+            text-align: left;
+            font-weight: bold;
+        }
+        .grid-table td {
+            border: 1px solid #cccccc;
+            padding: 4px;
+            font-size: 8pt;
+            vertical-align: top;
+        }
+        .skill-title {
+            font-weight: bold;
+            color: #222222;
+        }
+        .item-title {
+            font-weight: bold;
+            font-size: 8.5pt;
+        }
+        .item-award {
+            font-style: italic;
+            color: #333333;
+            font-weight: normal;
+        }
+        .item-date {
+            text-align: right;
+            font-size: 8pt;
+            color: #555555;
+        }
+        ul {
+            margin: 1px 0 3px 14px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 1px;
+            font-size: 8.5pt;
+        }
+        .role-fit-box {
+            background-color: #f8f9fa;
+            border-left: 3px solid #1a1a1a;
+            padding: 4px 6px;
+            margin-top: 4px;
+            font-size: 8pt;
+            font-style: italic;
+        }
+        .footer-tag {
+            text-align: right;
+            font-size: 7.5pt;
+            color: #666666;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================= PAGE 1 ================= -->
+    <div class="header">
+        <div class="name">{{ full_name }}</div>
+        <div class="subtitle">{{ title }}</div>
+        <div class="contact">
+            {{ contact.location }} | {{ contact.email }} | {{ contact.phone }} | GitHub: {{ contact.github }} | LinkedIn: {{ contact.linkedin }}
+        </div>
+    </div>
+
+    <!-- PROFILE -->
+    <div class="section-header">PROFILE</div>
+    <div style="font-size: 8.5pt; text-align: justify;">
+        {{ tailored_summary }}
+    </div>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-header">DATA ENGINEERING SKILLS</div>
+    <table class="data-table">
+        {% for category, skills in skill_categories.items() %}
+        <tr>
+            <td width="150" class="skill-title">{{ category }}</td>
+            <td width="520">| {{ skills | join(', ') }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- EXPERIENCE -->
+    {% if experiences %}
+    <div class="section-header">EXPERIENCE</div>
+        {% for exp in experiences %}
+        <table class="data-table">
+            <tr>
+                <td width="490" class="item-title"><span style="font-weight: bold;">{{ exp.role }}</span> | <em>{{ exp.company }}</em></td>
+                <td width="180" class="item-date">{{ exp.period }}</td>
+            </tr>
+        </table>
+        <ul>
+            {% for bullet in exp.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+
+    <!-- SELECTED PROJECTS -->
+    {% if projects %}
+    <div class="section-header">SELECTED PROJECTS</div>
+        {% for proj in projects %}
+        <table class="data-table">
+            <tr>
+                <td width="490" class="item-title">
+                    {{ proj.name }}
+                    {% if proj.award %}<span class="item-award">| {{ proj.award }}</span>{% endif %}
+                </td>
+                <td width="180" class="item-date"></td>
+            </tr>
+        </table>
+        <ul>
+            {% for bullet in proj.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% endif %}
+
+    <!-- EDUCATION -->
+    {% if education and education.degree %}
+    <div class="section-header">EDUCATION</div>
+    <table class="data-table">
+        <tr>
+            <td width="490" class="item-title">{{ education.degree }} | {{ education.institution }}</td>
+            <td width="180" class="item-date">{{ education.period }}</td>
+        </tr>
+    </table>
+    <div style="font-size: 8pt; color: #444444;">
+        {{ education.location }} | <em>Relevant coursework:</em> {{ education.coursework }}
+    </div>
+    {% endif %}
+
+    <!-- TRAINING & CERTIFICATIONS -->
+    {% if certifications %}
+    <div class="section-header">TRAINING & CERTIFICATIONS</div>
+    <ul>
+        {% for cert in certifications %}
+        <li>{{ cert }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- ROLE-FIT SUMMARY -->
+    <div class="section-header">ROLE-FIT SUMMARY</div>
+    <div class="role-fit-box">
+        {{ role_fit_summary }}
+    </div>
+    <div class="footer-tag">WASHINGTON MBELEKI DATA ENGINEERING — PAGE 1</div>
+
+    <!-- ================= PAGE 2 ONWARDS ================= -->
+    <div class="page-break"></div>
+
+    <div class="header">
+        <div class="name">{{ full_name }}</div>
+        <div class="subtitle">Strategic Brief: Candidate Positioning & Value Proposition</div>
+        <div class="contact">
+            {{ contact.location }} | {{ contact.email }} | LinkedIn: {{ contact.linkedin }} | GitHub: {{ contact.github }}
+        </div>
+    </div>
+
+    <!-- POSITIONING -->
+    <div class="section-header">POSITIONING</div>
+    <div style="font-size: 8.5pt; text-align: justify;">
+        Software engineer targeting entry-level data engineering roles, with hands-on project evidence across relational storage, API integration, caching, and data-informed application features. MoCredit and Thuso Health show how I connect data and services to support application workflows. My next step is to extend this foundation into clearly demonstrated ingestion, transformation, data-quality checks, and repeatable pipeline operation.
+    </div>
+
+    <!-- TARGET ROLES & WORKING SETUP -->
+    <div class="section-header">TARGET ROLES & WORKING SETUP</div>
+    <ul>
+        <li><strong>Roles:</strong> Entry-Level / Junior Data Engineer; Data Engineering Intern or Trainee; Graduate Data Engineer; Junior ETL Developer; backend roles with substantial SQL and data-processing work.</li>
+        <li><strong>Environment:</strong> A team with mentorship, code review, clear data-quality expectations, and opportunities to build and operate small pipelines.</li>
+        <li><strong>Application Strategy:</strong> Prioritize roles that value Python, SQL, backend fundamentals, and learning potential. Treat Spark, Airflow, dbt, and cloud data warehouses as learning targets unless separate hands-on evidence is available.</li>
+    </ul>
+
+    <!-- VALUE PROPOSITION -->
+    <div class="section-header">VALUE PROPOSITION</div>
+    <ul>
+        <li><strong>Data-Backed Application Workflows:</strong> MoCredit combines D1 persistence, KV caching, financial API integrations, and workflow automation.</li>
+        <li><strong>Operational Data Features:</strong> Thuso Health recommendations use travel-time, queue-congestion, and energy-availability information, alongside offline caching and sync considerations.</li>
+        <li><strong>Engineering & Backend Discipline:</strong> TSUMO Network, Code Clinic Booking, and peer tutoring provide evidence of API/service work, Python/SQLite, debugging, testing, code review, and teamwork.</li>
+    </ul>
+
+    <!-- PROOF POINTS -->
+    <div class="section-header">PROOF POINTS</div>
+    <table class="grid-table">
+        <thead>
+            <tr>
+                <th width="20%">Project</th>
+                <th width="55%">What It Demonstrates</th>
+                <th width="25%">Stack</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in proof_points %}
+            <tr>
+                <td><strong>{{ item.project }}</strong></td>
+                <td>{{ item.demonstrates }}</td>
+                <td><code>{{ item.stack }}</code></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- STRATEGIC BRIEF: GAPS & DEVELOPMENT PLAN -->
+    <div class="section-header" style="margin-top: 10px;">STRATEGIC BRIEF: GAPS & DEVELOPMENT PLAN</div>
+    <div style="font-weight: bold; font-size: 8.5pt; margin-top: 4px;">KNOWN GAPS & HOW I AM CLOSING THEM</div>
+    <ul>
+        {% for gap_item in gaps_and_plan %}
+        <li><strong>{{ gap_item.gap }}:</strong> {{ gap_item.action }}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- FIRST 90 DAYS (PROPOSED) -->
+    <div style="font-weight: bold; font-size: 8.5pt; margin-top: 6px;">FIRST 90 DAYS (PROPOSED)</div>
+    <table class="grid-table">
+        <thead>
+            <tr>
+                <th width="15%">Period</th>
+                <th width="35%">Focus</th>
+                <th width="50%">Evidence to Produce</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for plan in first_90_days %}
+            <tr>
+                <td><strong>{{ plan.period }}</strong></td>
+                <td>{{ plan.focus }}</td>
+                <td>{{ plan.evidence }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="footer-tag">WASHINGTON MBELEKI DATA ENGINEERING — PAGE 2</div>
+
+</body>
+</html>

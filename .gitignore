@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Session Data & Database (Local Credentials)
+browser_session/
+data/*.db
+data/*.csv
+config/.env
+
+# Streamlit
+.streamlit/
