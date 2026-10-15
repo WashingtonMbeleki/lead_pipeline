@@ -59,3 +59,5 @@ class JobScraper:
                 print(f"[SCRAPER ERROR] Failed scraping for role '{role}': {err}")
 
         return scraped_jobs
+
+        
