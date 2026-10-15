@@ -5,7 +5,9 @@ from typing import Optional
 class ApplicationDatabase:
     def __init__(self, db_path: str = "data/job_applications.db") -> None:
         self.db_path = db_path
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+        db_dir = os.path.dirname(self.db_path)
+        if db_dir:
+            os.makedirs(db_dir, exist_ok=True)
         self.init_db()
 
     def get_connection(self) -> sqlite3.Connection:

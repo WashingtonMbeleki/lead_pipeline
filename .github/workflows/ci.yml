@@ -26,16 +26,16 @@ jobs:
         pip install -r requirements.txt
         pip install pytest pytest-cov
 
-    - name: Validate Database & Parser Core
+    - name: Validate Database & CV Generator Core
       run: |
         python -c "
         from data_pipeline.db import ApplicationDatabase
-        from engine.parser import ResumeParser
+        from engine.cv_generator import TailoredCVGenerator
         import os
 
-        # Verify database initialization
-        db = ApplicationDatabase('test_applications.db')
+        # Verify database initialization with local path
+        db = ApplicationDatabase('data/test_applications.db')
         print('Database Schema Verified Successfully')
-        if os.path.exists('test_applications.db'):
-            os.remove('test_applications.db')
+        if os.path.exists('data/test_applications.db'):
+            os.remove('data/test_applications.db')
         "
