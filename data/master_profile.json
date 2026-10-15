@@ -76,7 +76,7 @@
         "Implemented TF-IDF cosine similarity scoring to match candidate profiles against incoming job descriptions.",
         "Built a Jinja2 & xhtml2pdf rendering engine to automatically generate job-tailored PDF CVs and managed workflow tracking via a Streamlit dashboard and SQLite."
       ],
-      "links": "GitHub: github.com/WashingtonMbeleki"
+      "links": "GitHub: github.com/WashingtonMbeleki/lead_pipeline"
     },
     {
       "name": "MoCredit - AI Credit Scoring & Micro-Lending Mini App",
@@ -111,16 +111,14 @@
       "award": "WeThinkCode_ course project",
       "bullets": [
         "Built a booking application for scheduling and managing academic code clinic sessions using Python, Flask, SQLite, and Google Calendar API integrations."
-      ],
-      "links": ""
+      ]
     },
     {
       "name": "Robot World Simulation Platform",
       "award": "",
       "bullets": [
         "Built a Java multiplayer client-server simulation using Maven, object-oriented design, test-driven development, Swing, and socket/network programming; refactored code in response to complexity warnings."
-      ],
-      "links": ""
+      ]
     }
   ],
   "education": {
