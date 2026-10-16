@@ -63,7 +63,7 @@ Entity-Relationship Diagram (ERD)
 
 
 
-##### Database Schema & Entity-Relationship Diagram (ERD)
+### Quick Start Engine
     #Step 1: Clone and Setup Virtual Environment
         git clone https://github.com/WashingtonMbeleki/lead_pipeline.git
         cd lead_pipeline
