@@ -4,24 +4,6 @@ WTC-8NWP9SCA
 # Assisted Job Application & Dynamic CV Engine
 An automated, human-in-the-loop job application pipeline built for software and data engineering roles. The system scrapes public job boards (targeting Graduate, Intern, Trainee, and Junior positions), scores listings using TF-IDF semantic matching against a centralized Master Profile, and dynamically generates job-tailored, multi-page PDF CVs and Strategic Briefs.
 
-## System Architecture & Workflow
-
-[LinkedIn Scraper] ──► [TF-IDF Matcher] ──► [SQLite Database] ──► [Streamlit Dashboard]
-                                                                        │
-                                                         (User Clicks "Generate CV")
-                                                                        ▼
- [Name-Surname-Role-CV.pdf] ◄── [Jinja2 + xhtml2pdf] ◄── [Master Profile JSON]
-
-```bash
-Ingestion (main.py / scraper.py): Scrapes target roles across South Africa and calculates similarity scores against your skills.
-
-Persistence (db.py): Stores all scraped jobs, application statuses (DISCOVERED, APPLIED, REJECTED), and match metadata in SQLite.
-
-Tailored Generation (cv_generator.py): Pulls single-source-of-truth data from master_profile.json, analyses the specific job requirements, and compiles a customized 2-part PDF document.
-
-Dashboard (app.py): Interactive control center to review leads, trigger custom CV builds, download files, and track pipeline metrics.
-```
-
 ## Project Structure
 lead_pipeline/
 ├── data/
