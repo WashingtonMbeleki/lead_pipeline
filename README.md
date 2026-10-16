@@ -23,45 +23,6 @@ lead_pipeline/
 ├── main.py                          # End-to-end CLI execution script
 └── README.md
 
-#### Database Schema & Entity-Relationship Diagram (ERD)
-```bash
-The application uses SQLite (data/job_applications.db) for lightweight local persistence. Below is the relational schema design.
-
-Entity-Relationship Diagram (ERD)
-```
-┌─────────────────────────────┐             ┌──────────────────────────────────┐
-│            jobs             │             │           applications           │
-├─────────────────────────────┤             ├──────────────────────────────────┤
-│ PK  job_id          TEXT    │◄── 1 : 1 ───│ PK  job_id          TEXT (FK)    │
-│     title           TEXT    │             │     match_score     REAL         │
-│     company         TEXT    │             │     status          TEXT         │
-│     location        TEXT    │             │     failure_reason  TEXT         │
-│     job_url         TEXT    │             │     updated_at      TIMESTAMP    │
-│     description     TEXT    │             └──────────────────────────────────┘
-│     created_at      TIMESTAMP│
-└─────────────────────────────┘
-
-```bash
-    Table Definitions
-
-    1.jobs_Table: Stores scraped listing details.
-        job_id: Primary Key (slugified combination of company and title)
-        title: Job position title
-        company: Hiring organization
-        location: Job location (e.g., Johannesburg, South Africa)
-        job_url: Direct outbound link to the posting
-        description: Full scraped text used for NLP matching
-        created_at: Timestamp of initial scraping
-
-    2.applications_Table: Tracks candidate workflow state per job lead.
-        job_id: Foreign Key referencing jobs(job_id)
-        match_score: Calculated TF-IDF cosine similarity score
-        status: Current application state (DISCOVERED, APPLIED, REJECTED)
-        failure_reason: Extracted keywords matching between profile and description
-        updated_at: Last modification timestamp
-```
-
-
 
 ### Quick Start Engine
     #Step 1: Clone and Setup Virtual Environment
