@@ -2,8 +2,6 @@ WTC-8NWP9SCA
 
 
 
-
-
 # Assisted Job Application & Dynamic CV Engine
     An automated, human-in-the-loop job application pipeline built for software and data engineering roles. The system scrapes public job boards (targeting Graduate, Intern, Trainee, and Junior positions), scores listings using TF-IDF semantic matching against a centralized Master Profile, and dynamically generates job-tailored, multi-page PDF CVs and Strategic Briefs.
 

@@ -50,7 +50,7 @@ class LinkedInPublicAPIScraper(BaseScraper):
             "Accept-Language": "en-US,en;q=0.9",
         }
 
-    def _calculate_match_score(self, title: str, user_skills: List[str]) -> Tuple[float, List[str]]:
+    def calculate_match_score(self, title: str, user_skills: List[str]) -> Tuple[float, List[str]]:
         if not user_skills:
             return 0.75, []
         
@@ -69,7 +69,7 @@ class LinkedInPublicAPIScraper(BaseScraper):
         combined_score = (keyword_score * 0.7) + (semantic_score * 0.3) + 0.1
         return min(combined_score, 0.98), matched_skills
 
-    def _fetch_page_with_retry(self, url: str, max_retries: int = 3) -> requests.Response | None:
+    def fetch_page_with_retry(self, url: str, max_retries: int = 3) -> requests.Response | None:
         for attempt in range(1, max_retries + 1):
             try:
                 response = requests.get(url, headers=self.headers, timeout=10)
