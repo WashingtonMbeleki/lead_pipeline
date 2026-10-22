@@ -1,16 +1,16 @@
 # Web Automation Core (Selenium Engine)
-selenium==4.51.0
-webdriver-manager==4.1.2
+selenium==4.29.0
+webdriver-manager==4.0.2
 
 # Document Parsing & Data Validation
-pypdf==6.21.1
+pypdf==6.20.1
 
 # Persistent Storage & Database
 duckdb==1.5.6
 
 # Data Analytics & Processing
-pandas==3.1.0
-numpy==2.5.4
+pandas==3.0.6
+numpy==2.4.5
 
 # Analytics Dashboard & Web UI
 streamlit==1.66.0
